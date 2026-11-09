@@ -1,0 +1,101 @@
+[
+  {
+    "op": "update",
+    "ns": "comercial.clientes",
+    "command": {
+      "q": {
+        "_id": 1
+      },
+      "u": {
+        "$set": {
+          "telefono": "6670000000"
+        }
+      }
+    },
+    "ts": {
+      "$date": "2026-11-09T04:31:31.026Z"
+    },
+    "client": "127.0.0.1",
+    "appName": "app-ventas-web",
+    "user": "app_ventas@comercial"
+  },
+  {
+    "op": "command",
+    "ns": "comercial.system.profile",
+    "command": {},
+    "ts": {
+      "$date": "2026-11-09T04:42:11.083Z"
+    },
+    "client": "127.0.0.1",
+    "appName": "mongosh 2.14.1",
+    "user": "admin@admin"
+  },
+  {
+    "op": "query",
+    "ns": "comercial.clientes",
+    "command": {},
+    "ts": {
+      "$date": "2026-11-09T04:49:27.077Z"
+    },
+    "client": "127.0.0.1",
+    "appName": "app-ventas-web",
+    "user": "app_ventas@comercial"
+  },
+  {
+    "op": "update",
+    "ns": "comercial.clientes",
+    "command": {
+      "q": {
+        "_id": 3
+      },
+      "u": {
+        "$set": {
+          "rfc": "GAMA780912XYZ"
+        }
+      }
+    },
+    "ts": {
+      "$date": "2026-11-09T04:49:27.083Z"
+    },
+    "client": "127.0.0.1",
+    "appName": "app-ventas-web",
+    "user": "app_ventas@comercial"
+  },
+  {
+    "op": "remove",
+    "ns": "comercial.clientes",
+    "command": {
+      "q": {
+        "_id": 2
+      }
+    },
+    "ts": {
+      "$date": "2026-11-09T04:49:27.086Z"
+    },
+    "client": "127.0.0.1",
+    "appName": "app-ventas-web",
+    "user": "app_ventas@comercial"
+  },
+  {
+    "op": "query",
+    "ns": "comercial.system.profile",
+    "command": {},
+    "ts": {
+      "$date": "2026-11-09T04:49:33.865Z"
+    },
+    "client": "127.0.0.1",
+    "appName": "mongosh 2.14.1",
+    "user": "admin@admin"
+  },
+  {
+    "op": "query",
+    "ns": "comercial.system.profile",
+    "command": {},
+    "ts": {
+      "$date": "2026-11-09T04:49:46.107Z"
+    },
+    "client": "127.0.0.1",
+    "appName": "mongosh 2.14.1",
+    "user": "admin@admin"
+  }
+]
